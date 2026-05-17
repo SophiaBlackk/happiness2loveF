@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>戀愛與幸福感 · 青春情感研究報告</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+SC:wght@300;400&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+  <nav id="main-nav">
+    <div class="nav-logo">❧ 中學生戀愛與幸福感研究</div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="選單">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero">戀愛與幸福感</a></li>
+      <li><a href="#origin">研究緣起</a></li>
+      <li><a href="#portrait">群體畫像</a></li>
+      <li><a href="#observation">深度訪談</a></li>
+      <li><a href="#stories">情感關鍵詞</a></li>
+      <li><a href="#double-edge">雙刃劍</a></li>
+      <li><a href="#perspectives">周圍環境</a></li>
+      <li><a href="#pseudo">偽命題？</a></li>
+      <li><a class="nav-test-link" href="https://traelocfjb.vercel.app" target="_blank" rel="noopener noreferrer">戀愛人格測試</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO — 戀愛與幸福感 ═══════════════ -->
+  <section id="hero" class="hero">
+    <svg class="hero-bg-svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <pattern id="lace" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+          <circle cx="20" cy="20" r="1.5" fill="rgba(196,149,106,0.15)"/>
+          <circle cx="0"  cy="0"  r="1"   fill="rgba(196,149,106,0.1)"/>
+          <circle cx="40" cy="0"  r="1"   fill="rgba(196,149,106,0.1)"/>
+          <circle cx="0"  cy="40" r="1"   fill="rgba(196,149,106,0.1)"/>
+          <circle cx="40" cy="40" r="1"   fill="rgba(196,149,106,0.1)"/>
+          <line x1="0" y1="20" x2="40" y2="20" stroke="rgba(196,149,106,0.06)" stroke-width="0.5"/>
+          <line x1="20" y1="0" x2="20" y2="40" stroke="rgba(196,149,106,0.06)" stroke-width="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="800" fill="url(#lace)"/>
+      <g opacity="0.24">
+        <path d="M 36,92 Q 120,64 182,118 Q 246,172 328,126" fill="none" stroke="rgba(228,160,120,0.24)" stroke-width="42" stroke-linecap="round"/>
+        <path d="M 940,118 Q 1024,62 1118,104 Q 1166,126 1194,102" fill="none" stroke="rgba(184,212,200,0.2)" stroke-width="40" stroke-linecap="round"/>
+        <path d="M 88,662 Q 178,622 252,662 Q 310,694 370,660" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="30" stroke-linecap="round"/>
+        <path d="M 856,650 Q 942,606 1024,654 Q 1086,692 1160,660" fill="none" stroke="rgba(242,196,168,0.18)" stroke-width="32" stroke-linecap="round"/>
+      </g>
+      <!-- ribbons -->
+      <path d="M -20 120 Q 80 80 160 140 Q 240 200 300 150 Q 360 100 420 160" fill="none" stroke="rgba(228,160,120,0.16)" stroke-width="18" stroke-linecap="round"/>
+      <path d="M -20 120 Q 80 80 160 140 Q 240 200 300 150 Q 360 100 420 160" fill="none" stroke="rgba(228,160,120,0.34)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M -20 120 Q 80 80 160 140 Q 240 200 300 150 Q 360 100 420 160" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 1220 60 Q 1100 100 1020 60 Q 940 20 860 80 Q 780 140 700 100" fill="none" stroke="rgba(184,212,200,0.16)" stroke-width="18" stroke-linecap="round"/>
+      <path d="M 1220 60 Q 1100 100 1020 60 Q 940 20 860 80 Q 780 140 700 100" fill="none" stroke="rgba(138,181,162,0.34)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 1220 60 Q 1100 100 1020 60 Q 940 20 860 80 Q 780 140 700 100" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 180 42 Q 264 76 336 54 Q 392 38 446 70" fill="none" stroke="rgba(255,255,255,0.34)" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M 700 744 Q 798 720 884 748 Q 974 776 1072 738" fill="none" stroke="rgba(196,149,106,0.18)" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- angel left -->
+      <g transform="translate(110,320)" opacity="0.22">
+        <ellipse cx="0" cy="-60" rx="22" ry="26" fill="none" stroke="rgba(196,149,106,0.8)" stroke-width="1.2"/>
+        <path d="M -22,-72 Q -30,-88 -18,-90 Q -8,-92 -10,-78" fill="none" stroke="rgba(196,149,106,0.7)" stroke-width="1"/>
+        <path d="M 22,-72 Q 30,-88 18,-90 Q 8,-92 10,-78" fill="none" stroke="rgba(196,149,106,0.7)" stroke-width="1"/>
+        <path d="M -10,-88 Q 0,-96 10,-88" fill="none" stroke="rgba(196,149,106,0.6)" stroke-width="1"/>
+        <path d="M -10,-34 L -10,-20 Q -10,-10 -24,0 Q -40,12 -46,30 L 46,30 Q 40,12 24,0 Q 10,-10 10,-20 L 10,-34" fill="none" stroke="rgba(196,149,106,0.8)" stroke-width="1.2"/>
+        <path d="M -24,0 Q -60,-20 -70,10 Q -80,40 -50,45 Q -30,48 -20,30" fill="none" stroke="rgba(196,149,106,0.5)" stroke-width="1"/>
+        <path d="M 24,0 Q 60,-20 70,10 Q 80,40 50,45 Q 30,48 20,30" fill="none" stroke="rgba(196,149,106,0.5)" stroke-width="1"/>
+        <rect x="-46" y="30" width="92" height="8" rx="2" fill="none" stroke="rgba(196,149,106,0.6)" stroke-width="1"/>
+      </g>
+      <!-- angel right -->
+      <g transform="translate(1090,230)" opacity="0.2">
+        <ellipse cx="0" cy="-60" rx="18" ry="22" fill="none" stroke="rgba(138,181,162,0.9)" stroke-width="1"/>
+        <path d="M -18,-68 Q -24,-82 -14,-84 Q -6,-86 -8,-72" fill="none" stroke="rgba(138,181,162,0.8)" stroke-width="1"/>
+        <path d="M 18,-68 Q 24,-82 14,-84 Q 6,-86 8,-72" fill="none" stroke="rgba(138,181,162,0.8)" stroke-width="1"/>
+        <path d="M -8,-40 L -8,-18 Q -8,-8 -20,4 Q -34,14 -38,26 L 38,26 Q 34,14 20,4 Q 8,-8 8,-18 L 8,-40" fill="none" stroke="rgba(138,181,162,0.9)" stroke-width="1"/>
+        <path d="M -20,4 Q -50,-14 -56,8 Q -62,32 -38,36 Q -24,40 -16,24" fill="none" stroke="rgba(138,181,162,0.5)" stroke-width="1"/>
+        <path d="M 20,4 Q 50,-14 56,8 Q 62,32 38,36 Q 24,40 16,24" fill="none" stroke="rgba(138,181,162,0.5)" stroke-width="1"/>
+        <rect x="-38" y="26" width="76" height="6" rx="2" fill="none" stroke="rgba(138,181,162,0.6)" stroke-width="1"/>
+      </g>
+      <!-- hearts -->
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 448,286 C 448,234 506,218 536,266 C 566,218 624,234 624,286 C 624,352 558,392 536,408 C 512,392 448,352 448,286 Z" stroke="rgba(255,214,223,0.22)" stroke-width="24"/>
+        <path d="M 458,286 C 458,240 508,228 536,268 C 564,228 614,240 614,286 C 614,344 556,384 536,398 C 514,384 458,344 458,286 Z" stroke="rgba(255,153,180,0.24)" stroke-width="10"/>
+        <path d="M 468,286 C 468,246 510,238 536,270 C 562,238 604,246 604,286 C 604,338 554,374 536,388 C 516,374 468,338 468,286 Z" stroke="rgba(242,124,156,0.46)" stroke-width="4.6"/>
+        <path d="M 474,286 C 474,250 512,244 536,272 C 560,244 598,250 598,286 C 598,334 552,368 536,380 C 518,368 474,334 474,286 Z" stroke="rgba(255,189,204,0.56)" stroke-width="2.2"/>
+        <path d="M 830,208 C 830,176 864,168 884,194 C 904,168 938,176 938,208 C 938,248 896,274 884,284 C 870,274 830,248 830,208 Z" stroke="rgba(224,255,244,0.16)" stroke-width="18"/>
+        <path d="M 838,208 C 838,182 866,176 884,198 C 902,176 930,182 930,208 C 930,242 894,266 884,274 C 872,266 838,242 838,208 Z" stroke="rgba(166,231,210,0.3)" stroke-width="7"/>
+        <path d="M 846,208 C 846,188 868,184 884,202 C 900,184 922,188 922,208 C 922,236 894,258 884,266 C 872,258 846,236 846,208 Z" stroke="rgba(138,181,162,0.54)" stroke-width="3.4"/>
+        <path d="M 908,572 C 908,544 936,538 954,560 C 972,538 1000,544 1000,572 C 1000,602 968,624 954,634 C 938,624 908,600 908,572 Z" stroke="rgba(255,205,216,0.12)" stroke-width="16"/>
+        <path d="M 916,572 C 916,550 940,546 954,562 C 968,546 992,550 992,572 C 992,596 966,616 954,624 C 940,616 916,596 916,572 Z" stroke="rgba(242,124,156,0.26)" stroke-width="5.2"/>
+        <path d="M 150,474 C 150,452 172,448 184,466 C 198,448 220,452 220,474 C 220,500 192,520 184,526 C 174,520 150,500 150,474 Z" stroke="rgba(138,181,162,0.28)" stroke-width="4.4"/>
+      </g>
+      <g opacity="0.18" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 140,176 Q 148,152 164,144" stroke="rgba(138,181,162,0.86)" stroke-width="1.8"/>
+        <ellipse cx="168" cy="142" rx="11" ry="5" fill="rgba(184,212,200,0.26)" transform="rotate(-30,168,142)"/>
+        <ellipse cx="154" cy="156" rx="10" ry="4.8" fill="rgba(184,212,200,0.2)" transform="rotate(24,154,156)"/>
+        <circle cx="162" cy="142" r="4.8" fill="rgba(242,196,168,0.28)"/>
+        <path d="M 1064,172 Q 1048,140 1020,134" stroke="rgba(196,149,106,0.76)" stroke-width="1.8"/>
+        <ellipse cx="1012" cy="132" rx="11" ry="5" fill="rgba(242,196,168,0.28)" transform="rotate(26,1012,132)"/>
+        <ellipse cx="1028" cy="146" rx="10" ry="4.4" fill="rgba(242,196,168,0.18)" transform="rotate(-26,1028,146)"/>
+        <circle cx="1020" cy="134" r="4.4" fill="rgba(255,255,255,0.28)"/>
+        <path d="M 266,678 Q 278,640 300,626" stroke="rgba(138,181,162,0.78)" stroke-width="1.7"/>
+        <ellipse cx="304" cy="624" rx="12" ry="5" fill="rgba(184,212,200,0.24)" transform="rotate(-34,304,624)"/>
+        <ellipse cx="286" cy="646" rx="10" ry="4.5" fill="rgba(184,212,200,0.18)" transform="rotate(28,286,646)"/>
+        <circle cx="298" cy="626" r="4.4" fill="rgba(242,196,168,0.26)"/>
+        <path d="M 1018,684 Q 1000,648 968,640" stroke="rgba(196,149,106,0.74)" stroke-width="1.7"/>
+        <ellipse cx="960" cy="638" rx="12" ry="5" fill="rgba(242,196,168,0.26)" transform="rotate(30,960,638)"/>
+        <ellipse cx="982" cy="652" rx="10" ry="4.4" fill="rgba(242,196,168,0.18)" transform="rotate(-30,982,652)"/>
+        <circle cx="970" cy="640" r="4.3" fill="rgba(255,255,255,0.22)"/>
+        <path d="M 540,96 Q 548,74 564,66" stroke="rgba(212,137,106,0.66)" stroke-width="1.4"/>
+        <ellipse cx="568" cy="64" rx="10" ry="4.6" fill="rgba(242,196,168,0.22)" transform="rotate(-20,568,64)"/>
+        <ellipse cx="554" cy="80" rx="8" ry="3.8" fill="rgba(184,212,200,0.18)" transform="rotate(16,554,80)"/>
+      </g>
+      <g opacity="0.16" fill="none" stroke-linecap="round">
+        <path d="M 68,264 q 16,-12 34,-2 q -10,18 -30,22" stroke="rgba(196,149,106,0.62)" stroke-width="1.2"/>
+        <path d="M 1126,300 q 16,-12 34,-2 q -10,18 -30,22" stroke="rgba(138,181,162,0.58)" stroke-width="1.2"/>
+        <path d="M 84,540 q 14,-12 30,-4 q -8,16 -24,22" stroke="rgba(228,160,120,0.54)" stroke-width="1.1"/>
+        <path d="M 1078,548 q 16,-12 32,-4 q -8,18 -26,22" stroke="rgba(196,149,106,0.54)" stroke-width="1.1"/>
+        <path d="M 580,706 q 22,-18 46,-6 q -12,24 -38,30" stroke="rgba(138,181,162,0.48)" stroke-width="1.15"/>
+      </g>
+      <!-- botanicals -->
+      <g opacity="0.2">
+        <path d="M 80,780 Q 90,750 110,740" fill="none" stroke="rgba(138,181,162,0.8)" stroke-width="1.5" stroke-linecap="round"/>
+        <ellipse cx="110" cy="740" rx="10" ry="5" fill="rgba(138,181,162,0.3)" transform="rotate(-30,110,740)"/>
+        <ellipse cx="120" cy="745" rx="8" ry="4" fill="rgba(138,181,162,0.25)" transform="rotate(10,120,745)"/>
+        <path d="M 1100,760 Q 1090,730 1070,720" fill="none" stroke="rgba(196,149,106,0.7)" stroke-width="1.5" stroke-linecap="round"/>
+        <ellipse cx="1070" cy="720" rx="10" ry="5" fill="rgba(242,196,168,0.4)" transform="rotate(30,1070,720)"/>
+      </g>
+      <g opacity="0.12">
+        <circle cx="134" cy="92" r="20" fill="rgba(255,255,255,0.22)"/>
+        <circle cx="1080" cy="110" r="18" fill="rgba(255,255,255,0.16)"/>
+        <circle cx="964" cy="676" r="20" fill="rgba(255,255,255,0.16)"/>
+        <circle cx="220" cy="650" r="18" fill="rgba(255,255,255,0.18)"/>
+      </g>
+      <!-- floral wave -->
+      <path d="M 0,780 Q 200,750 400,770 Q 600,790 800,760 Q 1000,730 1200,755 L 1200,800 L 0,800 Z" fill="rgba(196,149,106,0.08)"/>
+      <!-- column -->
+      <g transform="translate(570,700)" opacity="0.15">
+        <rect x="-3" y="-80" width="6" height="80" fill="none" stroke="rgba(196,149,106,1)" stroke-width="1"/>
+        <rect x="-10" y="-85" width="20" height="5" rx="1" fill="none" stroke="rgba(196,149,106,1)" stroke-width="1"/>
+        <rect x="-12" y="-90" width="24" height="5" rx="1" fill="none" stroke="rgba(196,149,106,1)" stroke-width="1"/>
+        <rect x="-14" y="0" width="28" height="5" rx="1" fill="none" stroke="rgba(196,149,106,1)" stroke-width="1"/>
+      </g>
+    </svg>
+
+    <div class="hero-content reveal">
+      <p class="eyebrow"></p>
+      <h1 class="hero-title hero-title-secondary"><span class="hero-title-line"><em>「沉船」</em>初體驗</span><span class="hero-title-line">係苦定係甜</span></h1>
+      
+      <p class="hero-subtitle">香港中學生的戀愛情感與內心幸福感
+</p>
+      <div class="hero-divider">
+        <span></span><span class="hero-divider-icon">❧</span><span></span>
+      </div>
+      <p class="hero-desc">
+        
+      </p>
+      <a href="#lead" class="btn-primary">開啟故事 ↓</a>
+    </div>
+
+    
+  </section>
+
+  <div class="lace-divider">~ ✦ ~ ♡ ~ ✦ ~ ♡ ~ ✦ ~</div>
+
+  <!-- ═══════════════════════════════ 導語 ═══════════════════════════════ -->
+  <section id="lead" class="section-lead">
+    <div class="container reveal">
+      <div class="lead-layout">
+        <div class="lead-note">
+          <p class="lead-kicker">導語 · 香港中學的情感縫隙</p>
+          <h2 class="lead-title">被談論，卻很少被真正<em>理解</em></h2>
+          <p class="lead-text">
+            在香港的中學裏，「戀愛」不在課堂上，也不在校規的文字之間。
+          </p>
+          <p class="lead-text">
+            但在日常生活的縫隙裏，這件事始終存在——在同學之間的側寫與傳聞中，在誰與誰靠得更近的微小變化裏，在一句被刻意壓低的「你知唔知」。
+          </p>
+          <p class="lead-text">
+            在這樣的語境中，中學生的親密關係往往顯得曖昧而邊緣：被頻繁談論，卻很少被認真理解。
+          </p>
+        
+        </div>
+        <aside class="lead-aside">
+          <div class="lead-poster lead-character-poster" aria-hidden="true">
+            <div class="lead-character-scene">
+              <span class="lead-scene-thread lead-scene-thread-main"></span>
+              <span class="lead-scene-thread lead-scene-thread-soft"></span>
+              <img class="lead-character char-1" src="5.png" alt="" loading="lazy">
+              <img class="lead-character char-2" src="2.png" alt="" loading="lazy">
+              <img class="lead-character char-3" src="1.png" alt="" loading="lazy">
+              <img class="lead-character char-4" src="4.jpg" alt="" loading="lazy">
+              <img class="lead-character char-5" src="3.png" alt="" loading="lazy">
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider" style="background:var(--milk);">— ✿ — ♡ — ✿ —</div>
+
+  <section class="section-lead-compare">
+    <div class="container reveal">
+      <div class="lead-compare-layout">
+        <div class="lead-compare-copy">
+          <p class="lead-text">
+            我們的調查顯示，戀愛關係與中學生的幸福感之間存在明確關聯。處於穩定關係中的學生，幸福感平均為 3.1 分；即使仍在曖昧階段，數值亦達 3.03 分。相反，當關係陷入冷戰或衝突，幸福感明顯下滑至 2.6 分，甚至低於從未戀愛者的 2.8 分。這意味著，影響中學生的並非「是否戀愛」，而是關係本身的狀態。
+          </p>
+          <p class="lead-text">
+            進一步分析問卷指標，我們亦觀察到中學生在戀愛中的表現具有高度辨識度：有人傾向依附與陪伴，將關係視為情緒支撐；有人重視距離與界線，保持相對自主；亦有人在親密與退縮之間反覆拉扯。這些差異，使「戀愛」在中學生之間呈現出多種樣貌，而非單一經驗。
+          </p>
+          <p class="lead-text">
+            
+          </p>
+          <p class="lead-text">
+            也正因如此，對許多中學生而言，戀愛未必是一段成熟的關係，而更像一次嘗試——在不確定之中摸索親密，理解他人，也逐步認識自己。本篇報道正是試圖回到這些真實經驗之中，理解戀愛如何在日常之中，形塑他們對幸福的感知。
+          </p>
+        </div>
+        <div class="lead-compare-visual">
+          <div class="chart-title flourish-title">不同戀愛狀態的中學生幸福感均值對比</div>
+          <div class="lead-compare-chart" role="img" aria-label="不同戀愛狀態的中學生幸福感均值對比垂直柱狀圖。拍拖中3.1，曖昧中3.03，冷戰吵架2.6，從未談戀愛2.8。">
+            <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g font-family="Noto Serif SC, serif">
+                <g stroke="rgba(122,85,72,0.14)" stroke-width="1">
+                  <line x1="68" y1="256" x2="566" y2="256"/>
+                  <line x1="68" y1="205.5" x2="566" y2="205.5"/>
+                  <line x1="68" y1="155" x2="566" y2="155"/>
+                  <line x1="68" y1="104.5" x2="566" y2="104.5"/>
+                  <line x1="68" y1="54" x2="566" y2="54"/>
+                </g>
+                <g font-size="12.5" fill="#8A6A5B">
+                  <text x="54" y="260" text-anchor="end">0</text>
+                  <text x="54" y="209.5" text-anchor="end">1</text>
+                  <text x="54" y="159" text-anchor="end">2</text>
+                  <text x="54" y="108.5" text-anchor="end">3</text>
+                  <text x="54" y="58" text-anchor="end">4</text>
+                </g>
+                <g>
+                  <rect x="104" y="99.5" width="76" height="156.5" rx="8" fill="#e9b886"/>
+                  <rect x="224" y="103" width="76" height="153" rx="8" fill="#d9b6c8"/>
+                  <rect x="344" y="124.7" width="76" height="131.3" rx="8" fill="#d4896a"/>
+                  <rect x="464" y="114.6" width="76" height="141.4" rx="8" fill="#b8d4c8"/>
+                </g>
+                <g font-size="15" fill="#5C4033" font-weight="700">
+                  <text x="142" y="89" text-anchor="middle">3.1</text>
+                  <text x="262" y="92.5" text-anchor="middle">3.03</text>
+                  <text x="382" y="114.2" text-anchor="middle">2.6</text>
+                  <text x="502" y="104.1" text-anchor="middle">2.8</text>
+                </g>
+                <g font-size="13" fill="#7A5548">
+                  <text x="142" y="286" text-anchor="middle">拍拖中</text>
+                  <text x="262" y="286" text-anchor="middle">曖昧中</text>
+                  <text x="382" y="286" text-anchor="middle">冷戰吵架</text>
+                  <text x="502" y="286" text-anchor="middle">從未談戀愛</text>
+                </g>
+                <text x="317" y="330" text-anchor="middle" font-size="14.5" fill="#7A5548" font-weight="600">戀愛狀態</text>
+                <text x="18" y="162" transform="rotate(-90 18 162)" text-anchor="middle" font-size="14.5" fill="#7A5548" font-weight="600">幸福感分值</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ 01 研究緣起 ═══════════════════════ -->
+  <section id="origin" class="section-origin">
+    <div class="section-bg-deco origin-deco" aria-hidden="true"></div>
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">01 · 研究緣起</p>
+        <h2 class="section-title">為什麼要聊<em>這件事</em></h2>
+      </div>
+      <div class="origin-layout">
+        <div class="origin-text-col">
+          <p class="body-text">
+            中學生戀愛，長久以來是一個被家長憂慮、被老師管制、被社會熱議的話題。它被貼上「早戀」的標籤，被視為學業的威脅、青春的誤區。
+          </p>
+          <p class="body-text">
+            然而，情感的萌動是青春的本能。心動、陪伴、失落與成長——這些情感體驗，本是人生中最真實的一部分。我們想用更溫柔、更客觀的視角去審視：
+            <em>戀愛，究竟如何影響中學生的幸福感？</em>
+          </p>
+          <p class="body-text">
+            本研究以問卷調研與深度訪談為基礎，試圖在數字與故事之間，還原那些被遺忘的青春情感真相。
+          </p>
+        </div>
+        <div class="origin-card-col">
+          <div class="origin-highlight-card">
+            <div class="ohc-icon"></div>
+            <div class="ohc-num">51</div>
+            <div class="ohc-label">份有效問卷</div>
+          </div>
+          <div class="origin-highlight-card mint-card">
+            <div class="ohc-icon"></div>
+            <div class="ohc-num">3</div>
+            <div class="ohc-label">次深度訪談</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider" style="background:var(--milk);">— ♡ — ♡ — ♡ —</div>
+
+  <!-- ═══════════════════════════════ 02 群體畫像 ════════════════════════ -->
+  <section id="portrait" class="section-portrait">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">02 · 中學生戀愛群體畫像</p>
+        <h2 class="section-title">中學生的<em> 戀愛輪廓</em></h2>
+      </div>
+
+      <div class="portrait-stats">
+        <div class="stat-card c1">
+          <div class="stat-num">51<sup>%</sup></div>
+          <div class="stat-label">有過心動經歷</div>
+        </div>
+        <div class="stat-card c2">
+          <div class="stat-num">37<sup>%</sup></div>
+          <div class="stat-label">有過戀愛關係</div>
+        </div>
+        <div class="stat-card c3">
+          <div class="stat-num">3.044</div>
+          <div class="stat-label">幸福感均值（/5）</div>
+        </div>
+        <div class="stat-card c4">
+          <div class="stat-num">35<sup>%</sup></div>
+          <div class="stat-label">認為戀愛後有所成長</div>
+        </div>
+      </div>
+
+      <div class="portrait-charts">
+        <!-- bar chart -->
+        <div class="chart-wrap portrait-hierarchy-wrap">
+          <div class="chart-title portrait-hierarchy-title">2025年香港中學生戀愛經驗和初次拍拖時間嵌套餅圖</div>
+          <div class="flourish-embed flourish-hierarchy portrait-hierarchy-embed" data-src="visualisation/29002557">
+            <noscript>
+              <img src="https://public.flourish.studio/visualisation/29002557/thumbnail" width="100%" alt="hierarchy visualization" />
+            </noscript>
+          </div>
+        </div>
+        <!-- donut-style tag cloud -->
+        <div class="chart-wrap portrait-tag-cloud-wrap">
+          <div class="chart-title">戀愛中最看重的品質</div>
+          <div class="tag-cloud portrait-tag-cloud">
+            <span class="tc-tag large peach">理解與陪伴</span>
+            <span class="tc-tag medium mint">誠實</span>
+            <span class="tc-tag large peach">情感共鳴</span>
+            <span class="tc-tag small warm">外表吸引</span>
+            <span class="tc-tag medium peach">幽默感</span>
+            <span class="tc-tag small mint">學業相近</span>
+            <span class="tc-tag medium mint">相互尊重</span>
+            <span class="tc-tag small warm">共同愛好</span>
+            <span class="tc-tag large peach">安全感</span>
+          </div>
+          <p class="portrait-hierarchy-source">數據來源：香港青年協會統計數據</p>
+        </div>
+      </div>
+
+      <div class="support-inline">
+      </div>
+      
+      <div class="portrait-bridge-prose">
+        <p class="portrait-bridge-paragraph">
+          多項本地調查顯示，戀愛經驗在香港中學生中具一定普遍性。香港青年協會一項涵蓋3,068名中學及大專學生的問卷調查發現，<span class="portrait-highlight">30.1%</span>的受訪者表示曾有戀愛經驗，其中<span class="portrait-highlight">79.1%</span>於初中或以前已開始拍拖。有關結果反映，部分學生在較早階段已接觸戀愛關係。
+        </p>
+      </div>
+
+      <div class="portrait-flourish-block">
+        <div class="portrait-flourish-layout">
+          <div class="portrait-flourish-copy">
+            <p class="body-text portrait-flourish-text">
+              香港家庭計劃指導會的長期研究亦顯示，過去二十年間，中學生的約會經驗比例大致維持在一定水平：中一至中二學生<span class="portrait-highlight">約三成</span>曾拍拖，中三至中六學生則<span class="portrait-highlight">約為一半</span>。雖然近年相關比例略有回落，但戀愛經驗仍屬不少學生的成長經歷之一。
+            </p>
+          </div>
+          <div class="portrait-flourish-visual">
+            <div class="flourish-embed flourish-chart" data-src="visualisation/28973016">
+              <noscript>
+                <img src="https://public.flourish.studio/visualisation/28973016/thumbnail" width="100%" alt="2008和2024年香港中學生拍拖次數餅圖" />
+              </noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="support-inline">
+      </div>
+      
+      <div class="portrait-flourish-block">
+        <div class="portrait-flourish-layout">
+          <div class="portrait-flourish-copy">
+            <p class="body-text portrait-flourish-text">
+              具體互動方面，數據顯示戀愛關係並非單一形式存在。香港青年協會調查指出，在有戀愛經驗的受訪者中，<span class="portrait-highlight">55.0%</span>表示每月至少與伴侶出現一次衝突；而家計會研究亦發現，<span class="portrait-highlight">約四成</span>曾拍拖的學生在關係中出現爭執或分手情況。相關數據顯示，中學生的戀愛關係涉及一定程度的人際互動與關係變化。
+            </p>
+          </div>
+          <div class="portrait-flourish-visual">
+            <div class="flourish-embed flourish-pictogram" data-src="visualisation/29005485">
+              <noscript>
+                <img src="https://public.flourish.studio/visualisation/29005485/thumbnail" width="100%" alt="中學生戀愛關係互動象形圖" />
+              </noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="support-inline">
+        
+      </div>
+      
+      <div class="portrait-summary-prose">
+        <p class="portrait-summary-paragraph">
+          更值得關注的是，戀愛本身的意義正在發生轉變。來自香港家庭計劃指導會的長期研究顯示，中學生的約會經驗在過去數年呈下降趨勢，而對婚姻與家庭的態度則日趨猶豫。與此同時，越來越多青少年透過網絡與社交媒體接觸戀愛觀念，甚至在小學階段已開始形成對親密關係的想像與期待，但其性知識水平與關係處理能力卻仍然不足，這種<span class="portrait-highlight">「接觸更早、理解更淺」</span>的矛盾，使青少年的戀愛關係呈現出更高的不穩定性，<span class="portrait-highlight">約四成</span>有戀愛經驗的學生曾在關係中發生衝突，<span class="portrait-highlight">超過七成</span>經歷過分手，而部分關係甚至<span class="portrait-highlight">僅維持數週</span>。
+        </p>
+        
+        <p class="portrait-summary-paragraph">
+          綜合現有數據，戀愛既在香港中學生中具一定普遍性，同時亦呈現出不同的戀愛模式和價值觀。在此背景下，戀愛關係是否以及如何影響中學生的幸福感，成為有待進一步探討的問題，也亟需關注。
+        </p>
+        <p class="portrait-summary-paragraph">
+          本文通過問卷調查以及深度訪談，分析香港中學生的戀愛經驗及其相關感受，進一步探討香港中學生戀愛與幸福感之間的關聯。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider">～ ✿ ～ ✿ ～ ✿ ～</div>
+
+  <!-- ═══════════════════════════════ 03 深度觀察 ════════════════════════ -->
+  <section id="observation" class="section-observation">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">03 · 深度訪談</p>
+        <h2 class="section-title section-title-wide">傾聽心緒｜香港中學生的戀愛體驗<em> 深度訪談</em></h2>
+      </div>
+
+      <div class="video-feature">
+        <div class="video-frame">
+          <iframe
+            src="https://player.bilibili.com/player.html?bvid=BV1JELH6eEwK&page=1"
+            title="「沉船」初體驗，係苦定係甜"
+            loading="lazy"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider" style="background:var(--cream);">— ♡ — ✦ — ♡ —</div>
+
+  <!-- ═══════════════════════════════ 04 情感百態 ════════════════════════ -->
+  <section id="stories" class="section-stories">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">04 · 中學生的情感關鍵詞</p>
+        <h2 class="section-title section-title-wide story-title-nowrap">在香港中學生眼中，「<span class="story-highlight story-highlight-title">陪伴</span>」是他們戀愛的關鍵詞。</h2>
+      </div>
+      <div class="story-prose story-intro-prose">
+        <p class="story-paragraph">
+          中四女生 Wiki 的戀愛經歷，是很多同齡人戀愛的真實寫照。她與前男友在車站偶然相遇，加了 IG 後天天聊天，最終走到了一起。對 Wiki 來說，戀愛中最幸福的時刻從來不是驚天動地的驚喜，而是平凡日子裡的相處。
+        </p>
+        <p class="story-paragraph">
+          Wiki回憶起跟前男友的相處表示：「有一次下午去維港散步聊天，拍了很多照片，聊到很晚，（那時候）覺得自己很浪漫，很幸福。」
+        </p>
+      </div>
+
+      <div class="support-inline">
+      </div>
+
+      <div class="story-centered">
+        <div class="story-word-cloud-panel" role="img" aria-label="圓形詞雲圖，展示中學生的情感關鍵詞，包含陪伴、甜蜜、成長、衝動、迷茫、分心、溫暖、支持、壓力、焦慮、自由、秘密、內耗、尊重、純粹、失衡、脆弱、隨性、共情。">
+          <svg class="story-word-cloud-svg" viewBox="0 0 620 470" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <g class="story-cloud-orb">
+              <text x="310" y="238" class="story-cloud-word story-cloud-size-27 story-cloud-blue" style="--burst-x:0px; --burst-y:-42px; --burst-r:-8deg; --burst-delay:0ms;">陪伴</text>
+              <text x="202" y="178" class="story-cloud-word story-cloud-size-19 story-cloud-blue story-cloud-vertical" style="--burst-x:-46px; --burst-y:-24px; --burst-r:-14deg; --burst-delay:40ms;">甜蜜</text>
+              <text x="322" y="126" class="story-cloud-word story-cloud-size-15 story-cloud-green" style="--burst-x:16px; --burst-y:-46px; --burst-r:10deg; --burst-delay:70ms;">成長</text>
+              <text x="422" y="182" class="story-cloud-word story-cloud-size-15 story-cloud-orange" style="--burst-x:54px; --burst-y:-22px; --burst-r:15deg; --burst-delay:110ms;">衝動</text>
+              <text x="462" y="248" class="story-cloud-word story-cloud-size-11 story-cloud-purple story-cloud-vertical" style="--burst-x:58px; --burst-y:18px; --burst-r:18deg; --burst-delay:140ms;">迷茫</text>
+              <text x="394" y="300" class="story-cloud-word story-cloud-size-10 story-cloud-orange" style="--burst-x:40px; --burst-y:34px; --burst-r:12deg; --burst-delay:170ms;">分心</text>
+
+              <text x="226" y="120" class="story-cloud-word story-cloud-size-2 story-cloud-blue" style="--burst-x:-18px; --burst-y:-34px; --burst-r:-10deg; --burst-delay:90ms;">純粹</text>
+              <text x="162" y="142" class="story-cloud-word story-cloud-size-4 story-cloud-purple" style="--burst-x:-48px; --burst-y:-16px; --burst-r:-16deg; --burst-delay:60ms;">秘密</text>
+              <text x="168" y="220" class="story-cloud-word story-cloud-size-8 story-cloud-green" style="--burst-x:-58px; --burst-y:6px; --burst-r:-12deg; --burst-delay:120ms;">溫暖</text>
+              <text x="124" y="268" class="story-cloud-word story-cloud-size-6 story-cloud-green story-cloud-vertical" style="--burst-x:-62px; --burst-y:34px; --burst-r:-16deg; --burst-delay:150ms;">支持</text>
+              <text x="198" y="314" class="story-cloud-word story-cloud-size-2 story-cloud-pink" style="--burst-x:-28px; --burst-y:36px; --burst-r:-10deg; --burst-delay:180ms;">尊重</text>
+              <text x="164" y="346" class="story-cloud-word story-cloud-size-2 story-cloud-purple story-cloud-vertical" style="--burst-x:-34px; --burst-y:52px; --burst-r:-16deg; --burst-delay:210ms;">內耗</text>
+
+              <text x="300" y="322" class="story-cloud-word story-cloud-size-5 story-cloud-green" style="--burst-x:0px; --burst-y:46px; --burst-r:8deg; --burst-delay:130ms;">自由</text>
+              <text x="380" y="352" class="story-cloud-word story-cloud-size-1 story-cloud-red" style="--burst-x:18px; --burst-y:46px; --burst-r:13deg; --burst-delay:220ms;">失衡</text>
+              <text x="430" y="328" class="story-cloud-word story-cloud-size-1 story-cloud-red" style="--burst-x:44px; --burst-y:40px; --burst-r:13deg; --burst-delay:200ms;">脆弱</text>
+              <text x="506" y="210" class="story-cloud-word story-cloud-size-1 story-cloud-gray story-cloud-vertical" style="--burst-x:60px; --burst-y:-4px; --burst-r:16deg; --burst-delay:160ms;">隨性</text>
+              <text x="260" y="368" class="story-cloud-word story-cloud-size-1 story-cloud-green" style="--burst-x:-14px; --burst-y:56px; --burst-r:-9deg; --burst-delay:230ms;">共情</text>
+              <text x="250" y="286" class="story-cloud-word story-cloud-size-6 story-cloud-red" style="--burst-x:-42px; --burst-y:30px; --burst-r:-11deg; --burst-delay:190ms;">壓力</text>
+              <text x="430" y="126" class="story-cloud-word story-cloud-size-5 story-cloud-red story-cloud-vertical" style="--burst-x:30px; --burst-y:-54px; --burst-r:15deg; --burst-delay:100ms;">焦慮</text>
+            </g>
+          </svg>
+          <div class="chart-title flourish-title story-cloud-title">中學生的情感關鍵詞</div>
+        </div>
+        <div class="story-prose">
+          <p class="story-paragraph">
+            問卷調查數據顯示，「陪伴」一詞出現高達27次，遠高於「甜蜜」（19次）和「成長」（15次）。對不少中學生來說，拍拖並非轟轟烈烈的浪漫，而是日常生活的細微陪伴。
+          </p>
+          <p class="story-paragraph">
+            Wiki回憶起跟前男友的相處表示：「有一次下午去維港散步聊天，拍了很多照片，聊到很晚，（那時候）覺得自己很浪漫，很幸福。」
+          </p>
+          
+          <p class="story-paragraph">
+            然而，甜蜜的陪伴背後也總有拉扯與矛盾。「<span class="story-highlight">衝動</span>」（15次）、「<span class="story-highlight">迷茫</span>」（11 次）、「<span class="story-highlight">分心</span>」（10 次）等相對負面的詞匯也多次被提及。
+          </p>
+          <div class="story-quote-box">
+            <p class="story-paragraph story-quote-paragraph">
+              Rachel直言：「我觉得像草莓蛋糕配螺螄粉，因为草莓蛋糕是很好吃的，但你多吃几口会很甜，就很腻，还有螺螄粉是鹹的，虽然它臭，但它是很香的，所以两样东西是搭配著的。」
+            </p>
+          </div>
+        </div>
+
+        <div class="support-inline">
+        </div>
+
+        <div class="story-radar-layout">
+          <div class="story-radar-copy">
+            <p class="story-paragraph">
+              雷達圖進一步呈現中學生戀愛關係中的互動質量。整體平均分為<span class="story-highlight story-highlight-strong">3.42分</span>（滿分5分），處於中等偏上水平，顯示<span class="story-highlight story-highlight-strong">關係質量尚可</span>。其中「重視彼此界限」得分最高為4.04分，「理解與支持伴侶」緊隨其後為3.92分，反映了青春期自我意識覺醒，中學生在情感關係中普遍重視個人空間與情感支持。
+            </p>
+            <p class="story-paragraph">
+              但「<span class="story-highlight">学业与生活互助</span>」（2.92分）和「<span class="story-highlight">吵架後修復關係</span>」（2.86分）分數較低，揭露出中學生戀愛的兩大明顯短板。
+            </p>
+            <p class="story-paragraph">
+              這一點在 Wiki 的經歷中也有所體現，儘管那次爭執最終和解，但兩人並沒有學會如何系統性地處理衝突。中六男生Brian提到，與對方相處的半年也經歷了很多。由早期的冷戰處理方式轉向為平等理性的溝通是他們不斷修復關係的嘗試與成長。
+            </p>
+            <p class="story-paragraph">
+              甜蜜與陪伴並非中學生戀愛的全部。「衝動」、「迷茫」的關鍵詞以及衝突修復能力的不足都反映青春期戀愛關係隱藏著情緒風險，中學生在處理衝突和平衡情緒時仍面臨挑戰。
+            </p>
+          </div>
+          <div class="story-radar-wrap">
+            <div class="chart-title flourish-title">中學生戀愛關係中的互動</div>
+            <p class="story-chart-subtitle">整體平均分 3.42 分（滿分5分）</p>
+            <div class="story-radar" role="img" aria-label="中學生戀愛關係中的互動雷達圖，滿分5分，整體平均分3.42分。">
+              <svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g fill="none" stroke="rgba(122,85,72,0.18)" stroke-width="1.4" stroke-dasharray="4 6">
+                <polygon points="300,268 325.1,280 331.2,307.1 313.9,328.8 286.1,328.8 268.8,307.1 274.9,280"/>
+                <polygon points="300,236 350.1,260.1 362.4,314.2 327.8,357.7 272.2,357.7 237.6,314.2 249.9,260.1"/>
+                <polygon points="300,204 375.2,240.1 393.6,321.4 341.7,386.5 258.3,386.5 206.4,321.4 224.8,240.1"/>
+                <polygon points="300,172 400.2,220.2 424.8,328.5 355.5,415.4 244.5,415.4 175.2,328.5 199.8,220.2"/>
+                <polygon points="300,140 425.2,200.2 456,335.6 369.4,444.2 230.6,444.2 144,335.6 174.8,200.2"/>
+              </g>
+              <g stroke="rgba(122,85,72,0.16)" stroke-width="1.4">
+                <line x1="300" y1="300" x2="300" y2="140"/>
+                <line x1="300" y1="300" x2="425.2" y2="200.2"/>
+                <line x1="300" y1="300" x2="456" y2="335.6"/>
+                <line x1="300" y1="300" x2="369.4" y2="444.2"/>
+                <line x1="300" y1="300" x2="230.6" y2="444.2"/>
+                <line x1="300" y1="300" x2="144" y2="335.6"/>
+                <line x1="300" y1="300" x2="174.8" y2="200.2"/>
+              </g>
+              <g font-family="Noto Serif SC, serif" font-size="13.5" fill="rgba(122,85,72,0.72)">
+                <text x="300" y="288" text-anchor="middle">1</text>
+                <text x="300" y="256" text-anchor="middle">2</text>
+                <text x="300" y="224" text-anchor="middle">3</text>
+                <text x="300" y="192" text-anchor="middle">4</text>
+                <text x="300" y="160" text-anchor="middle">5</text>
+              </g>
+              <polygon
+                points="300,170.7 388.5,229.4 391.1,320.8 354.4,413 254.3,394.9 210.8,320.4 215.5,232.6"
+                fill="rgba(255,159,107,0.36)"
+                stroke="#D97B45"
+                stroke-width="3.2"
+                stroke-linejoin="round"
+              />
+              <g fill="#D97B45">
+                <circle cx="300" cy="170.7" r="4.6"/>
+                <circle cx="388.5" cy="229.4" r="4.6"/>
+                <circle cx="391.1" cy="320.8" r="4.6"/>
+                <circle cx="354.4" cy="413" r="4.6"/>
+                <circle cx="254.3" cy="394.9" r="4.6"/>
+                <circle cx="210.8" cy="320.4" r="4.6"/>
+                <circle cx="215.5" cy="232.6" r="4.6"/>
+              </g>
+              <g font-family="Noto Serif SC, serif" font-size="15.5" fill="#8E6A58" font-weight="600">
+                <text x="300" y="102" text-anchor="middle">重視彼此界限</text>
+                <text x="460" y="192" text-anchor="start">溝通分歧與需求</text>
+                <text x="486" y="344" text-anchor="start">學業與生活互助</text>
+                <text x="392" y="482" text-anchor="middle">理解與支持伴侶</text>
+                <text x="208" y="482" text-anchor="middle">坦誠表達不滿</text>
+                <text x="108" y="344" text-anchor="start">吵架後修復關係</text>
+                <text x="132" y="192" text-anchor="start">重要決策商量一致</text>
+              </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider" style="background:var(--cream);">~ ✦ ~ ♡ ~ ✦ ~ ♡ ~</div>
+
+  <!-- ═══════════════════════════════ 05 雙刃劍 ════════════════════════ -->
+  <section id="double-edge" class="section-double">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">05 · 戀愛是把雙刃劍</p>
+        <h2 class="section-title section-title-wide story-title-nowrap">中學生戀愛中的<em>挑戰 </em>与<em>情緒困擾</em></h2>
+      </div>
+      <div class="story-subsection-block">
+      
+        <div class="story-impact-layout">
+          <div class="story-donut-wrap">
+            <div class="chart-title flourish-title">中學生認為戀愛對情緒的影響</div>
+            <p class="story-chart-subtitle">超過八成學生情緒受波動</p>
+            <div class="story-donut" role="img" aria-label="中學生認為戀愛對情緒的影響圓環圖。完全沒影響17.39%，有較小影響30.43%，一般17.39%，有較大影響21.74%，有很大影響13.04%。">
+              <svg viewBox="0 0 560 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g transform="rotate(-90 250 220)">
+                  <circle cx="250" cy="220" r="128" fill="none" stroke="rgba(183,204,214,0.95)" stroke-width="74" stroke-dasharray="139.96 804.29" stroke-dashoffset="0"/>
+                  <circle cx="250" cy="220" r="128" fill="none" stroke="rgba(236,214,188,0.96)" stroke-width="74" stroke-dasharray="244.71 699.54" stroke-dashoffset="-144.96"/>
+                  <circle cx="250" cy="220" r="128" fill="none" stroke="rgba(228,210,150,0.96)" stroke-width="74" stroke-dasharray="139.96 804.29" stroke-dashoffset="-394.67"/>
+                  <circle cx="250" cy="220" r="128" fill="none" stroke="rgba(221,163,97,0.98)" stroke-width="74" stroke-dasharray="174.78 769.47" stroke-dashoffset="-539.63"/>
+                  <circle cx="250" cy="220" r="128" fill="none" stroke="rgba(226,114,49,0.98)" stroke-width="74" stroke-dasharray="104.82 839.43" stroke-dashoffset="-719.41"/>
+                </g>
+                <circle cx="250" cy="220" r="91" fill="rgba(253,246,238,0.92)"/>
+                <g font-family="Noto Serif SC, serif" font-size="15.5" font-weight="600">
+                  <text x="350" y="70" fill="#778EA1" text-anchor="middle">完全沒影響</text>
+                  <text x="350" y="90" fill="#778EA1" text-anchor="middle">17.39%</text>
+                  <text x="452" y="260" fill="#8F6C58" text-anchor="middle">有較小影響</text>
+                  <text x="452" y="280" fill="#8F6C58" text-anchor="middle">30.43%</text>
+                  <text x="182" y="395" fill="#9D8256" text-anchor="middle">一般</text>
+                  <text x="182" y="415" fill="#9D8256" text-anchor="middle">17.39%</text>
+                  <text x="58" y="210" fill="#9E653E" text-anchor="start">有較大影響</text>
+                  <text x="58" y="230" fill="#9E653E" text-anchor="start">21.74%</text>
+                  <text x="160" y="58" fill="#A9552B" text-anchor="middle">有很大影響</text>
+                  <text x="160" y="78" fill="#A9552B" text-anchor="middle">13.04%</text>
+                </g>
+              </svg>
+            </div>
+            <div class="story-donut-legend" aria-hidden="true">
+              <span><i class="legend-dot none"></i>完全沒影響</span>
+              <span><i class="legend-dot low"></i>有較小影響</span>
+              <span><i class="legend-dot mid"></i>一般</span>
+              <span><i class="legend-dot high"></i>有較大影響</span>
+              <span><i class="legend-dot very-high"></i>有很大影響</span>
+            </div>
+          </div>
+          <div class="story-impact-copy">
+            <p class="story-paragraph">
+              問卷調查的數據顯示，<span class="story-highlight story-highlight-strong">超過八成</span>中學生認為戀愛會對情緒帶來影響，只有17.39%的人覺得「完全沒影響」。其中認為戀愛對情緒「影響較大」和「非常大影響」的佔約35%。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="support-inline">
+      </div>
+
+      <div class="story-prose story-followup-prose">
+        <p class="story-paragraph">
+          Wiki表示自己經歷了與前男友的的斷崖式分手和長時間的冷暴力。即便在她發了幾十條消息後對方也不回覆信息，更沒有解釋，這無疑對她造成了較大的影響。
+        </p>
+        <p class="story-paragraph">
+          「第一次分手對我的情緒波動比較大，在生活上我會覺得空虛了，就好像少了一個人跟我說話一樣」，Wiki回憶道。
+        </p>
+        <p class="story-paragraph">
+          哈佛醫學院等多個研機構也證實，青少年大腦發育失衡，是引發情緒波動、行為衝突的核心成因。
+        </p>
+        <p class="story-paragraph">
+          處於這一關鍵生長發育階段的中學生，對情緒驅動的敏感度較高，更易陷入情緒失控狀態，進而引發連串負面後果。
+        </p>
+        <p class="story-paragraph">
+          通過採訪了解到有學生因戀愛分手陷入嚴重情緒崩潰，最終導致 DSE 考試成績大幅下滑，學業發展受到影響。<span class="story-line-highlight">情緒的起伏，最終難免波及學業。</span>
+        </p>
+      </div>
+
+      <div class="support-inline">
+      </div>
+
+      <div class="story-academic-layout">
+        <div class="story-academic-copy">
+          <p class="story-paragraph">
+            調查中，近半數受訪學生（43.5%）認為戀愛對學業的影響「視情況而定」，但明確認為有正面影響的人數僅佔6%。
+          </p>
+          <p class="story-paragraph">
+            三位受訪者都認為，「談戀愛後溫書時間少了導至成績下跌」也是理所當然的。
+          </p>
+        </div>
+        <div class="story-academic-chart-wrap">
+          <div class="chart-title flourish-title">中學生認為拍拖對學業的影響</div>
+          <div class="story-academic-chart" role="img" aria-label="中學生認為拍拖對學業的影響餅圖。正面影響6.82%，負面影響15.91%，中性影響17.4%，視情況而定45.45%，唔想回答13.64%。">
+            <svg viewBox="0 0 560 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g transform="translate(0,4)">
+                <path d="M 280 230 L 280.00 76.00 A 154 154 0 0 1 342.76 89.37 Z" fill="rgba(139,192,177,0.96)" stroke="rgba(253,246,238,0.95)" stroke-width="3"/>
+                <path d="M 280 230 L 342.76 89.37 A 154 154 0 0 1 431.24 267.64 Z" fill="rgba(223,149,131,0.96)" stroke="rgba(253,246,238,0.95)" stroke-width="3"/>
+                <path d="M 280 230 L 431.24 267.64 A 154 154 0 0 1 330.75 375.41 Z" fill="rgba(141,103,88,0.96)" stroke="rgba(253,246,238,0.95)" stroke-width="3"/>
+                <path d="M 280 230 L 330.75 375.41 A 154 154 0 0 1 165.15 332.99 Z" fill="rgba(194,161,178,0.97)" stroke="rgba(253,246,238,0.95)" stroke-width="3"/>
+                <path d="M 280 230 L 165.15 332.99 A 154 154 0 0 1 280.00 76.00 Z" fill="rgba(235,159,78,0.96)" stroke="rgba(253,246,238,0.95)" stroke-width="3"/>
+              </g>
+              <g font-family="Noto Serif SC, serif" font-size="15.5" font-weight="600">
+                <text x="336" y="54" fill="#5F8F82" text-anchor="middle">正面影響（如更有動力、互相督促）</text>
+                <text x="336" y="74" fill="#5F8F82" text-anchor="middle">6.82%</text>
+                <text x="452" y="178" fill="#A66B5A" text-anchor="middle">負面影響（如分心、成績下滑）</text>
+                <text x="452" y="198" fill="#A66B5A" text-anchor="middle">15.91%</text>
+                <text x="420" y="340" fill="#7C5B4F" text-anchor="middle">中性影響（基本無影響）</text>
+                <text x="420" y="360" fill="#7C5B4F" text-anchor="middle">17.4%</text>
+                <text x="138" y="392" fill="#936E82" text-anchor="middle">視情況而定（時好時壞）</text>
+                <text x="138" y="412" fill="#936E82" text-anchor="middle">45.45%</text>
+                <text x="126" y="120" fill="#B46F36" text-anchor="middle">唔想回答</text>
+                <text x="126" y="140" fill="#B46F36" text-anchor="middle">13.64%</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider" style="background:var(--milk);">～ ✿ ～ ✿ ～ ✿ ～</div>
+
+  <!-- ═══════════════════════════════ 06 周圍環境 ════════════════════════ -->
+  <section id="perspectives" class="section-perspectives">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">06 · 周圍環境對中學生戀愛的看法</p>
+        <h2 class="section-title section-title-wide">當關係起伏時，<em>周圍的人</em>有何反應？</h2>
+      </div>
+      <div class="persp-prose">
+        <p class="persp-paragraph">
+          當戀愛中的溝通分歧和情緒波動出現時，中學生同時也面臨學校家庭態度不明、同儕支持有限、專業指導缺失的多重困境。
+        </p>
+        <p class="persp-paragraph">
+          本調查的數據顯示，學校、老師及家長對中學生戀愛的態度均以 "<span class="persp-highlight">中立 / 不清楚</span>" 為主流，明確反對的聲音在老師和家長群體中略佔上風。
+        </p>
+      </div>
+
+      <div class="persp-stack layout-wide">
+        <div class="persp-copy">
+          <p class="persp-paragraph">
+            在學校整體氛圍層面，近<span class="persp-highlight">三分之二</span>的學生認為學校對中學生戀愛持 "<span class="persp-highlight">中立 / 不清楚</span>" 的態度。老師與家長的態度基本一致，以中立為絕對主流，且明確反對的人數略高於支持人數。
+          </p>
+          <p class="persp-quote">
+            Rachel 表示：「老師只要我們不在學校過分親密、穿校服時舉止得體就不會干涉，正常的情感追求他們會理解，但不會主動支持。」
+          </p>
+          <p class="persp-paragraph">
+            她的母親同樣持觀望態度，只會幫她分析狀態，不會替她做任何決定。而中三女生 Wiki 則從未向家人透露過自己的戀愛經歷，分手時只能獨自承受情緒壓力。
+          </p>
+          <p class="persp-paragraph">
+            學校和家長的<span class="persp-highlight">模糊觀望態度</span>，讓中學生在遇到情感問題時，首先失去了兩個支持來源。在這種情況下，每天朝夕相處的同伴，是否能成為他們最可靠的傾訴對象？
+          </p>
+        </div>
+        <div class="persp-visual chart-large attitude-panel">
+          <div class="chart-title flourish-title">學校、老師及家長的態度分佈</div>
+          <div class="attitude-compare" role="img" aria-label="學校、老師與家長對中學生戀愛的態度對比。三個並排的分組橫向條形圖，包含學校整體氛圍、班主任老師、家長三組資料，X軸範圍0到26。">
+            <svg viewBox="0 0 930 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g font-family="Noto Serif SC, serif">
+                <g transform="translate(20,10)">
+                  <text x="148" y="18" text-anchor="middle" font-size="15.5" fill="#7A5548" font-weight="600">學校整體氛圍</text>
+                  <g stroke="rgba(122,85,72,0.14)" stroke-width="1">
+                    <line x1="70" y1="34" x2="70" y2="226"/><line x1="82" y1="34" x2="82" y2="226"/><line x1="94" y1="34" x2="94" y2="226"/><line x1="106" y1="34" x2="106" y2="226"/>
+                    <line x1="130" y1="34" x2="130" y2="226"/><line x1="166" y1="34" x2="166" y2="226"/><line x1="190" y1="34" x2="190" y2="226"/><line x1="226" y1="34" x2="226" y2="226"/>
+                  </g>
+                  <g font-size="12.5" fill="#7A5548">
+                    <text x="0" y="62">中立</text><text x="0" y="90">幾反對</text><text x="0" y="118">唔清楚</text><text x="0" y="146">幾支持</text><text x="0" y="174">好支持</text><text x="0" y="202">好反對</text>
+                  </g>
+                  <g>
+                    <rect x="70" y="48" width="156" height="14" rx="3" fill="#e8b4b4"/><rect x="70" y="76" width="36" height="14" rx="3" fill="#b8e0d2"/>
+                    <rect x="70" y="104" width="30" height="14" rx="3" fill="#d4b8c4"/><rect x="70" y="132" width="18" height="14" rx="3" fill="#d7e6d2"/>
+                    <rect x="70" y="160" width="36" height="14" rx="3" fill="#e9b886"/><rect x="70" y="188" width="6" height="14" rx="3" fill="#f7e6d8"/>
+                  </g>
+                  <g font-size="13" fill="#000" font-weight="700">
+                    <text x="234" y="60">26</text><text x="114" y="88">6</text><text x="108" y="116">5</text><text x="96" y="144">3</text><text x="114" y="172">6</text><text x="84" y="200">1</text>
+                  </g>
+                  <g font-size="11.5" fill="#8A6A5B">
+                    <text x="70" y="248" text-anchor="middle">0</text><text x="82" y="248" text-anchor="middle">2</text><text x="94" y="248" text-anchor="middle">4</text><text x="106" y="248" text-anchor="middle">6</text>
+                    <text x="130" y="248" text-anchor="middle">10</text><text x="166" y="248" text-anchor="middle">16</text><text x="190" y="248" text-anchor="middle">20</text><text x="226" y="248" text-anchor="middle">26</text>
+                  </g>
+                </g>
+
+                <g transform="translate(325,10)">
+                  <text x="148" y="18" text-anchor="middle" font-size="15.5" fill="#7A5548" font-weight="600">班主任 / 老師</text>
+                  <g stroke="rgba(122,85,72,0.14)" stroke-width="1">
+                    <line x1="70" y1="34" x2="70" y2="226"/><line x1="82" y1="34" x2="82" y2="226"/><line x1="94" y1="34" x2="94" y2="226"/><line x1="106" y1="34" x2="106" y2="226"/>
+                    <line x1="130" y1="34" x2="130" y2="226"/><line x1="166" y1="34" x2="166" y2="226"/><line x1="190" y1="34" x2="190" y2="226"/><line x1="226" y1="34" x2="226" y2="226"/>
+                  </g>
+                  <g font-size="12.5" fill="#7A5548">
+                    <text x="0" y="62">中立</text><text x="0" y="90">幾反對</text><text x="0" y="118">唔清楚</text><text x="0" y="146">幾支持</text><text x="0" y="174">好支持</text><text x="0" y="202">好反對</text>
+                  </g>
+                  <g>
+                    <rect x="70" y="48" width="108" height="14" rx="3" fill="#e8b4b4"/><rect x="70" y="76" width="48" height="14" rx="3" fill="#b8e0d2"/>
+                    <rect x="70" y="104" width="48" height="14" rx="3" fill="#d4b8c4"/><rect x="70" y="132" width="42" height="14" rx="3" fill="#d7e6d2"/>
+                    <rect x="70" y="160" width="18" height="14" rx="3" fill="#e9b886"/><rect x="70" y="188" width="18" height="14" rx="3" fill="#f7e6d8"/>
+                  </g>
+                  <g font-size="13" fill="#000" font-weight="700">
+                    <text x="186" y="60">18</text><text x="126" y="88">8</text><text x="126" y="116">8</text><text x="120" y="144">7</text><text x="96" y="172">3</text><text x="96" y="200">3</text>
+                  </g>
+                  <g font-size="11.5" fill="#8A6A5B">
+                    <text x="70" y="248" text-anchor="middle">0</text><text x="82" y="248" text-anchor="middle">2</text><text x="94" y="248" text-anchor="middle">4</text><text x="106" y="248" text-anchor="middle">6</text>
+                    <text x="130" y="248" text-anchor="middle">10</text><text x="166" y="248" text-anchor="middle">16</text><text x="190" y="248" text-anchor="middle">20</text><text x="226" y="248" text-anchor="middle">26</text>
+                  </g>
+                </g>
+
+                <g transform="translate(630,10)">
+                  <text x="148" y="18" text-anchor="middle" font-size="15.5" fill="#7A5548" font-weight="600">家長</text>
+                  <g stroke="rgba(122,85,72,0.14)" stroke-width="1">
+                    <line x1="70" y1="34" x2="70" y2="226"/><line x1="82" y1="34" x2="82" y2="226"/><line x1="94" y1="34" x2="94" y2="226"/><line x1="106" y1="34" x2="106" y2="226"/>
+                    <line x1="130" y1="34" x2="130" y2="226"/><line x1="166" y1="34" x2="166" y2="226"/><line x1="190" y1="34" x2="190" y2="226"/><line x1="226" y1="34" x2="226" y2="226"/>
+                  </g>
+                  <g font-size="12.5" fill="#7A5548">
+                    <text x="0" y="62">中立</text><text x="0" y="90">幾反對</text><text x="0" y="118">唔清楚</text><text x="0" y="146">幾支持</text><text x="0" y="174">好支持</text><text x="0" y="202">好反對</text>
+                  </g>
+                  <g>
+                    <rect x="70" y="48" width="102" height="14" rx="3" fill="#e8b4b4"/><rect x="70" y="76" width="48" height="14" rx="3" fill="#b8e0d2"/>
+                    <rect x="70" y="104" width="42" height="14" rx="3" fill="#d4b8c4"/><rect x="70" y="132" width="42" height="14" rx="3" fill="#d7e6d2"/>
+                    <rect x="70" y="160" width="24" height="14" rx="3" fill="#e9b886"/><rect x="70" y="188" width="24" height="14" rx="3" fill="#f7e6d8"/>
+                  </g>
+                  <g font-size="13" fill="#000" font-weight="700">
+                    <text x="180" y="60">17</text><text x="126" y="88">8</text><text x="120" y="116">7</text><text x="120" y="144">7</text><text x="102" y="172">4</text><text x="102" y="200">4</text>
+                  </g>
+                  <g font-size="11.5" fill="#8A6A5B">
+                    <text x="70" y="248" text-anchor="middle">0</text><text x="82" y="248" text-anchor="middle">2</text><text x="94" y="248" text-anchor="middle">4</text><text x="106" y="248" text-anchor="middle">6</text>
+                    <text x="130" y="248" text-anchor="middle">10</text><text x="166" y="248" text-anchor="middle">16</text><text x="190" y="248" text-anchor="middle">20</text><text x="226" y="248" text-anchor="middle">26</text>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="support-inline">
+      </div>
+
+      <div class="persp-split">
+        <div class="persp-copy">
+          <div class="persp-subsection">
+            <p class="section-label">同儕關係</p>
+            <p class="persp-paragraph">
+              <span class="persp-highlight">同儕團體</span>作為中學生日常<span class="persp-highlight">接觸最頻繁</span>的對象，其對戀愛的態度及互動變化，會影響學生的情感體驗。
+            </p>
+          </div>
+          <p class="persp-paragraph">
+            從數據來看，朋友戀愛時，多數學生的態度偏向<span class="persp-highlight">包容</span>，既不會過度幹預，也會為朋友的甜蜜感到<span class="persp-highlight">開心</span>；僅有少數人會<span class="persp-highlight">擔心</span>朋友戀愛後彼此關係變淡，或產生<span class="persp-highlight">羨慕</span>情緒。戀愛半年的Brian提到：「以前常和朋友打遊戲，現在時間少了點，他們偶爾會開玩笑說我 ' 消失 '，但沒真的疏遠。」
+          </p>
+        </div>
+        <div class="persp-visual">
+          <div class="chart-title flourish-title">朋友戀愛時的反應</div>
+          <div class="friend-attitude-chart" role="img" aria-label="朋友戀愛時的態度垂直柱狀圖。替他開心12，擔心會變疏遠8，唔影響19，羨慕或都想拍拖5，唔想回答1。Y軸範圍0到20。">
+            <svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g font-family="Noto Serif SC, serif">
+                <g font-size="12.5" fill="#7A5548">
+                  <text x="48" y="254" text-anchor="end">0</text>
+                  <text x="48" y="204" text-anchor="end">5</text>
+                  <text x="48" y="154" text-anchor="end">10</text>
+                  <text x="48" y="104" text-anchor="end">15</text>
+                  <text x="48" y="54" text-anchor="end">20</text>
+                </g>
+                <g stroke="rgba(122,85,72,0.14)" stroke-width="1">
+                  <line x1="58" y1="250" x2="520" y2="250"/>
+                  <line x1="58" y1="200" x2="520" y2="200"/>
+                  <line x1="58" y1="150" x2="520" y2="150"/>
+                  <line x1="58" y1="100" x2="520" y2="100"/>
+                  <line x1="58" y1="50" x2="520" y2="50"/>
+                </g>
+                <g font-size="12.5" fill="#7A5548">
+                  <rect x="70" y="14" width="10" height="10" rx="2" fill="#e08a8a"/><text x="86" y="24">替他開心</text>
+                  <rect x="164" y="14" width="10" height="10" rx="2" fill="#b8e0d2"/><text x="180" y="24">擔心會變疏遠</text>
+                  <rect x="294" y="14" width="10" height="10" rx="2" fill="#e9b886"/><text x="310" y="24">唔影響</text>
+                  <rect x="376" y="14" width="10" height="10" rx="2" fill="#d4b8c4"/><text x="392" y="24">羨慕 / 都想拍拖</text>
+                  <rect x="70" y="34" width="10" height="10" rx="2" fill="#e8b4b4"/><text x="86" y="44">唔想回答</text>
+                </g>
+                <g>
+                  <rect x="86" y="130" width="56" height="120" rx="5" fill="#e08a8a"/>
+                  <rect x="174" y="170" width="56" height="80" rx="5" fill="#b8e0d2"/>
+                  <rect x="262" y="60" width="56" height="190" rx="5" fill="#e9b886"/>
+                  <rect x="350" y="200" width="56" height="50" rx="5" fill="#d4b8c4"/>
+                  <rect x="438" y="240" width="56" height="10" rx="5" fill="#e8b4b4"/>
+                </g>
+                <g font-size="15" fill="#fff" font-weight="700">
+                  <text x="114" y="150" text-anchor="middle">12</text>
+                  <text x="202" y="190" text-anchor="middle">8</text>
+                  <text x="290" y="80" text-anchor="middle">19</text>
+                  <text x="378" y="220" text-anchor="middle">5</text>
+                  <text x="466" y="248" text-anchor="middle">1</text>
+                </g>
+                <text x="289" y="325" text-anchor="middle" font-size="16" fill="#7A5548" font-weight="600">朋友戀愛時的態度</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="support-inline">
+      </div>
+
+      <div class="persp-split reverse">
+        <div class="persp-visual">
+          <div class="chart-title flourish-title">自身戀愛後與朋友關係的變化</div>
+          <div class="relationship-change-donut" role="img" aria-label="戀愛後和朋友關係變化環形餅圖。無明顯變化69.3%，更疏遠12.2%，更親密2%。">
+            <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g font-family="Noto Serif SC, serif">
+                <g transform="translate(0,6)">
+                  <circle cx="260" cy="150" r="88.5" fill="none" stroke="#c9b0c0" stroke-width="59" stroke-dasharray="459.5 96.6" stroke-dashoffset="0" transform="rotate(-90 260 150)"/>
+                  <circle cx="260" cy="150" r="88.5" fill="none" stroke="#e0a09a" stroke-width="59" stroke-dasharray="79.2 476.9" stroke-dashoffset="-461.5" transform="rotate(-90 260 150)"/>
+                  <circle cx="260" cy="150" r="88.5" fill="none" stroke="#8AB5A2" stroke-width="59" stroke-dasharray="11.3 544.8" stroke-dashoffset="-542.7" transform="rotate(-90 260 150)"/>
+                  <circle cx="260" cy="150" r="59" fill="rgba(253,246,238,0.92)"/>
+                </g>
+                <g font-size="14.5" fill="#000" font-weight="700">
+                  <text x="307" y="232" text-anchor="middle">無明顯變化</text>
+                  <text x="307" y="250" text-anchor="middle">69.3%</text>
+                  <text x="210" y="92" text-anchor="middle">更疏遠</text>
+                  <text x="210" y="110" text-anchor="middle">12.2%</text>
+                  <text x="258" y="76" text-anchor="middle">更親密</text>
+                  <text x="258" y="92" text-anchor="middle">2%</text>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="persp-copy">
+          <p class="persp-paragraph">
+            而當自身處於戀愛狀態時，<span class="persp-highlight">近七成</span>學生表示與朋友的關係沒有明顯變化，僅部分人感受到<span class="persp-highlight">連結減少</span>。不過這種「<span class="persp-highlight">減少</span>」多是<span class="persp-highlight">時間分配</span>調整導致，而非刻意疏遠。有 crush 的 Rachel 則對向朋友傾訴情感心事比較謹慎：「怕朋友也喜歡同一個人，或背後議論，所以很少說這些。」
+          </p>
+        </div>
+      </div>
+
+      <div class="support-inline">
+      </div>
+
+      <div class="persp-prose closing">
+        <p class="persp-paragraph">
+          整體而言，同儕關係對中學生戀愛的影響更偏向 "<span class="persp-highlight">中性</span>"，既不會成為強烈的支持來源，也很少造成負面阻礙，更是隨日常互動自然變化。多数同龄人同样也缺乏情感经验，只能提供情绪陪伴，无法给出有建设性的解决方案。
+        </p>
+        <p class="persp-paragraph">
+          數據調查顯示，學生 "願意向信任的人傾訴情感困惑" 的平均分僅為 <span class="persp-highlight">3.1 分</span>，略高於 1-5 分量表的中立線；但 "身邊有人能提供實際有效建議" 的平均分僅為 <span class="persp-highlight">2.9 分</span>，剛剛跌破及格線。
+        </p>
+      </div>
+      <div class="persp-gauge-grid">
+        <div class="persp-gauge-card">
+          <div class="persp-gauge-visual" role="img" aria-label="中學生戀愛關係支持度儀表盤，我願意同同伴傾關係入面嘅困惑，數值3.1分，滿分5分。">
+            <svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g font-family="Noto Serif SC, serif">
+                <g font-size="12.5" fill="#8A6A5B" font-weight="600">
+                  <text x="62" y="44" text-anchor="middle">1</text>
+                  <text x="110" y="44" text-anchor="middle">2</text>
+                  <text x="160" y="36" text-anchor="middle">3</text>
+                  <text x="210" y="44" text-anchor="middle">4</text>
+                  <text x="258" y="44" text-anchor="middle">5</text>
+                </g>
+                <path d="M 64 150 A 96 96 0 0 1 256 150" fill="none" stroke="rgba(180,172,168,0.24)" stroke-width="24" stroke-linecap="round"/>
+                <g fill="none" stroke-width="20" stroke-linecap="round">
+                  <path d="M 64 150 A 96 96 0 0 1 82.34 93.57" stroke="#f7e6d8"/>
+                  <path d="M 89.2 85.1 A 96 96 0 0 1 130.34 58.7" stroke="#e9c8a8"/>
+                  <path d="M 141.4 55.4 A 96 96 0 0 1 178.6 55.4" stroke="#e9b886"/>
+                  <path d="M 189.66 58.7 A 96 96 0 0 1 230.8 85.1" stroke="#e9a866"/>
+                  <path d="M 237.66 93.57 A 96 96 0 0 1 256 150" stroke="#e86a33"/>
+                </g>
+                <line x1="160" y1="150" x2="165.7" y2="78.2" stroke="#e9b886" stroke-width="5" stroke-linecap="round"/>
+                <circle cx="160" cy="150" r="7" fill="#e9b886"/>
+              </g>
+            </svg>
+          </div>
+          <div class="persp-gauge-value">3.1</div>
+          <div class="persp-gauge-title">我願意同同伴傾關係入面嘅困惑</div>
+        </div>
+        <div class="persp-gauge-card">
+          <div class="persp-gauge-visual" role="img" aria-label="中學生戀愛關係支持度儀表盤，我身邊有人可以俾到實際嘅建議，數值2.9分，滿分5分。">
+            <svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g font-family="Noto Serif SC, serif">
+                <g font-size="12.5" fill="#8A6A5B" font-weight="600">
+                  <text x="62" y="44" text-anchor="middle">1</text>
+                  <text x="110" y="44" text-anchor="middle">2</text>
+                  <text x="160" y="36" text-anchor="middle">3</text>
+                  <text x="210" y="44" text-anchor="middle">4</text>
+                  <text x="258" y="44" text-anchor="middle">5</text>
+                </g>
+                <path d="M 64 150 A 96 96 0 0 1 256 150" fill="none" stroke="rgba(180,172,168,0.24)" stroke-width="24" stroke-linecap="round"/>
+                <g fill="none" stroke-width="20" stroke-linecap="round">
+                  <path d="M 64 150 A 96 96 0 0 1 82.34 93.57" stroke="#f7e6d8"/>
+                  <path d="M 89.2 85.1 A 96 96 0 0 1 130.34 58.7" stroke="#e9c8a8"/>
+                  <path d="M 141.4 55.4 A 96 96 0 0 1 178.6 55.4" stroke="#e9b886"/>
+                  <path d="M 189.66 58.7 A 96 96 0 0 1 230.8 85.1" stroke="#e9a866"/>
+                  <path d="M 237.66 93.57 A 96 96 0 0 1 256 150" stroke="#e86a33"/>
+                </g>
+                <line x1="160" y1="150" x2="154.3" y2="78.2" stroke="#e9c8a8" stroke-width="5" stroke-linecap="round"/>
+                <circle cx="160" cy="150" r="7" fill="#e9c8a8"/>
+              </g>
+            </svg>
+          </div>
+          <div class="persp-gauge-value">2.9</div>
+          <div class="persp-gauge-title">我身邊有人可以俾到實際嘅建議</div>
+        </div>
+      </div>
+      <div class="persp-prose support-followup">
+        <p class="persp-paragraph">
+          這看似微小的差距，恰恰暴露了中學生可能存在的情緒支持困境：他們有傾訴的意願，但是很難得到真正有效的建議。部分學生認為，同儕缺乏足夠的情感經驗，無法給予有用的建議；而向長輩傾訴則可能面臨指責，最終只能自己摸索。
+        </p>
+        <p class="persp-paragraph">
+          學校雖然會開設性教育相關課程，但內容多集中在生理健康知識，幾乎不涉及戀愛溝通、衝突處理、界線建立等實用技能。 Wiki 提到：「學校教過愛情包含激情、信任和親密三個要素，但從來沒教過我們怎麼和伴侶溝通，怎麼處理分手。」
+        </p>
+        <p class="persp-paragraph">
+          當外在環境始終保持距離，學生只能在關係中自我摸索時，「戀愛」在中學生之間，逐漸演變為一種有別於成年人理解的經驗形態。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider">~ ✦ ~ ✿ ~ ✦ ~</div>
+
+  <!-- ═══════════════════════════════ 07 偽命題 ═════════════════════════ -->
+  <section id="pseudo" class="section-pseudo">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">07 · 青春「戀愛」是否是偽命題</p>
+        <h2 class="section-title">當「戀愛」發生在<em class="pseudo-soft-highlight">尚未成熟  </em>的年紀</h2>
+      </div>
+      <div class="pseudo-intro">
+        <p class="pseudo-paragraph">
+          在本次調查中，當被問及 "你認為中學生戀愛與成年人戀愛最大的不同是什麼" 時，回答呈現出<span class="pseudo-highlight">清晰的集中趨勢</span>。
+        </p>
+      </div>
+
+      <div class="pseudo-split">
+        <div class="pseudo-copy">
+          <p class="pseudo-paragraph">
+            多數學生首先提到了 "<span class="pseudo-highlight">純粹</span>"、"<span class="pseudo-highlight">純愛</span>" 和 "<span class="pseudo-highlight">單純</span>" 等關鍵詞，他們認為成年人的戀愛往往摻雜著經濟條件等複雜的現實因素，而中學生的戀愛更多基於純粹的好感和喜歡，不需要考慮複雜的生計難題。
+          </p>
+          
+          <p class="pseudo-paragraph">
+            其次，中學生戀愛的核心訴求是 "<span class="pseudo-highlight">陪伴</span>" 和 "<span class="pseudo-highlight">情緒價值</span>"。這也是學生形容 "中學生拍拖" 時提及最多的關鍵字。Wiki 坦言："覺得是遇到的人太少了，在學校見到的都是那些人，就會覺得應該他算是最好的，其實只是需要陪伴。"
+          </p>
+        </div>
+        
+        <div class="word-cloud-wrap flourish-panel">
+          <div class="custom-word-cloud" role="img" aria-label="圓形詞雲圖，展示中學生戀愛與成年人戀愛最大區別的關鍵詞，包含單純、純真、不成熟、愛情、穩定、感性、經濟、理解能力等詞語。">
+            <svg class="word-cloud-svg" viewBox="0 0 620 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g class="word-cloud-orb">
+                <text x="310" y="102" class="wc-word wc-size-80 wc-blue" style="--wc-burst-x:0px; --wc-burst-y:-52px; --wc-burst-r:-10deg; --wc-burst-delay:0ms;">愛情</text>
+                <text x="200" y="145" class="wc-word wc-size-50 wc-purple" style="--wc-burst-x:-42px; --wc-burst-y:-24px; --wc-burst-r:-14deg; --wc-burst-delay:50ms;">浪漫</text>
+                <text x="420" y="145" class="wc-word wc-size-60 wc-orange" style="--wc-burst-x:48px; --wc-burst-y:-20px; --wc-burst-r:14deg; --wc-burst-delay:90ms;">經濟</text>
+
+                <text x="124" y="168" class="wc-word wc-size-80 wc-blue wc-vertical" style="--wc-burst-x:-62px; --wc-burst-y:-18px; --wc-burst-r:-18deg; --wc-burst-delay:120ms;">純真</text>
+                <text x="182" y="188" class="wc-word wc-size-60 wc-purple wc-vertical" style="--wc-burst-x:-44px; --wc-burst-y:4px; --wc-burst-r:-16deg; --wc-burst-delay:150ms;">感性</text>
+                <text x="84" y="224" class="wc-word wc-size-60 wc-gray wc-vertical" style="--wc-burst-x:-70px; --wc-burst-y:22px; --wc-burst-r:-14deg; --wc-burst-delay:190ms;">時間更多</text>
+
+                <text x="500" y="158" class="wc-word wc-size-80 wc-red wc-vertical" style="--wc-burst-x:64px; --wc-burst-y:-12px; --wc-burst-r:18deg; --wc-burst-delay:130ms;">不成熟</text>
+                <text x="470" y="222" class="wc-word wc-size-60 wc-neutral wc-vertical" style="--wc-burst-x:56px; --wc-burst-y:20px; --wc-burst-r:16deg; --wc-burst-delay:170ms;">理解能力</text>
+                <text x="546" y="220" class="wc-word wc-size-50 wc-purple wc-vertical" style="--wc-burst-x:72px; --wc-burst-y:8px; --wc-burst-r:16deg; --wc-burst-delay:210ms;">心思</text>
+
+                <text x="310" y="204" class="wc-word wc-size-50 wc-neutral" style="--wc-burst-x:0px; --wc-burst-y:-30px; --wc-burst-r:-8deg; --wc-burst-delay:70ms;">溝通方法</text>
+                <text x="310" y="282" class="wc-word wc-size-100 wc-blue" style="--wc-burst-x:0px; --wc-burst-y:58px; --wc-burst-r:10deg; --wc-burst-delay:20ms;">單純</text>
+                <text x="418" y="268" class="wc-word wc-size-50 wc-blue" style="--wc-burst-x:44px; --wc-burst-y:10px; --wc-burst-r:12deg; --wc-burst-delay:110ms;">不理性</text>
+                <text x="240" y="294" class="wc-word wc-size-50 wc-green wc-vertical" style="--wc-burst-x:-34px; --wc-burst-y:28px; --wc-burst-r:-14deg; --wc-burst-delay:140ms;">態度</text>
+
+                <text x="206" y="340" class="wc-word wc-size-60 wc-green" style="--wc-burst-x:-46px; --wc-burst-y:24px; --wc-burst-r:-12deg; --wc-burst-delay:160ms;">穩定</text>
+                <text x="428" y="334" class="wc-word wc-size-50 wc-red" style="--wc-burst-x:50px; --wc-burst-y:32px; --wc-burst-r:12deg; --wc-burst-delay:200ms;">困難不一樣</text>
+                <text x="314" y="374" class="wc-word wc-size-50 wc-green" style="--wc-burst-x:0px; --wc-burst-y:44px; --wc-burst-r:8deg; --wc-burst-delay:180ms;">開心</text>
+
+                <text x="166" y="378" class="wc-word wc-size-50 wc-pink wc-vertical" style="--wc-burst-x:-40px; --wc-burst-y:52px; --wc-burst-r:-16deg; --wc-burst-delay:220ms;">成熟程度</text>
+                <text x="442" y="390" class="wc-word wc-size-50 wc-orange" style="--wc-burst-x:44px; --wc-burst-y:42px; --wc-burst-r:12deg; --wc-burst-delay:240ms;">目的性</text>
+                <text x="220" y="436" class="wc-word wc-size-50 wc-pink" style="--wc-burst-x:-28px; --wc-burst-y:56px; --wc-burst-r:-10deg; --wc-burst-delay:260ms;">沒錢</text>
+                <text x="332" y="438" class="wc-word wc-size-60 wc-gray" style="--wc-burst-x:10px; --wc-burst-y:62px; --wc-burst-r:10deg; --wc-burst-delay:230ms;">被歧視</text>
+                <text x="510" y="402" class="wc-word wc-size-30 wc-gray wc-vertical" style="--wc-burst-x:60px; --wc-burst-y:34px; --wc-burst-r:16deg; --wc-burst-delay:270ms;">不怕被發現</text>
+              </g>
+            </svg>
+            <div class="chart-title flourish-title">中學生戀愛與成年人戀愛最大區別</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="support-inline">
+      </div>
+
+      <div class="pseudo-prose">
+        <p class="pseudo-paragraph">
+          但這種以即時<span class="pseudo-highlight">情緒滿足</span>為核心的關係，帶有難以避免的<span class="pseudo-highlight">脆弱性</span>。部分學生提到，中學生戀愛 "不成熟"" 容易分手 "，雙方都還在自我認知的形成過程中，不懂得如何處理衝突和矛盾，往往因為一點小事就吵架甚至斷絕聯繫，關係的穩定性極差。
+        </p>
+        <p class="pseudo-paragraph">
+          Rachel 觀察到："身邊很多人對戀愛的態度都是隨便的，純粹為了拍拖而拍拖，不是因為真的喜歡對方。" 有學生直言，很多中學生其實「<span class="pseudo-highlight">唔清楚係咪真係鍾意對方</span>」，常常把一時的好感、好奇或者孤獨感誤認為是愛情。
+        </p>
+        <p class="pseudo-paragraph">
+          這種對自身情感的<span class="pseudo-highlight">模糊認知</span>，進一步加劇了關係的不確定性。很多學生開始一段關係只是因為 "<span class="pseudo-highlight">身邊人都在拍拖</span>"，或者覺得 "<span class="pseudo-highlight">有人陪不孤單</span>"，並沒有真正想清楚自己想要什麼。
+        </p>
+        <p class="pseudo-paragraph">
+          但我們不能因此就<span class="pseudo-highlight">全盤否定</span>中學生戀愛的價值。對於正在經歷青春期的他們來說，戀愛是一種<span class="pseudo-highlight">無可替代</span>的成長體驗，在親密關係中，他們第一次學會如何與異性平等相處，如何表達自己的真實情感，也如何面對關係中的矛盾與分離。這些經歷雖然青澀，甚至可能帶來短暫的痛苦，但都是他們人格塑造過程中不可或缺的一部分。
+        </p>
+        <p class="pseudo-paragraph">
+          Wiki 說：「經歷過這段戀愛後，我學會了不要太急功近利，也明白了幸福其實是很簡單的事情。」 因此，與其簡單粗暴地禁止中學生戀愛，不如轉變思路，為他們提供必要的引導和支持。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="lace-divider" style="background:var(--cream);">— ♡ — ✦ — ♡ —</div>
+
+  <!-- ═══════════════════════════════ 07 研究總結 ════════════════════════ -->
+  <section id="conclusion" class="section-conclusion">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section-label">08 · 研究總結與建議</p>
+        <h2 class="section-title section-title-wide conclusion-title-nowrap">以溫柔為方法，<em>以理解為起點</em></h2>
+      </div>
+      <div class="conclusion-prose">
+        <p class="conclusion-paragraph">
+          在本篇報道所觸及的個體經驗與數據之間，我們可以發現中學生的戀愛，早已不是一個可以被輕易忽略的存在——它真實地發生，並持續影響著一代人對情緒、自我與關係的理解方式。
+        </p>
+        <p class="conclusion-paragraph">
+          從陪伴與甜蜜，到衝突與失衡，從短暫的心動，到漫長的自我摸索，中學生的戀愛關係呈現的，並非單一的風險或誤區，而是一種混雜著不確定與可能性的成長歷程。在缺乏清晰引導與穩定支持的情況下，他們往往只能在關係之中不斷試探：分辨情感、學習表達，也承受代價。
+        </p>
+        <p class="conclusion-paragraph">
+          或許，問題從來不在於中學生「應不應該戀愛」，而在於，當這些經驗已經發生，我們是否願意提供一套更成熟的理解方式——讓戀愛不再只是被貼上負面標籤的對象，而能成為一種被看見、被討論、甚至被承接的成長過程。
+        </p>
+        <p class="conclusion-paragraph">
+          這不只是關於青春的某個側面。它關乎的是，在一個高度規範與競爭的城市裏，我們如何看待情感經驗本身的價值，以及是否願意為下一代留下更多理解與支持的可能。
+        </p>
+        <p class="conclusion-paragraph conclusion-paragraph-closing">
+          當我們開始認真對待中學生的戀愛，我們其實是在認真對待一整代人的幸福能力。
+        </p>
+      </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ════════════════════════════ -->
+  <footer class="footer-band">
+    <svg class="footer-bg-svg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <path d="M 0,50 Q 300,20 600,60 Q 900,100 1200,50 L 1200,0 L 0,0 Z" fill="rgba(255,255,255,0.12)"/>
+      <path d="M 0,280 Q 300,260 600,275 Q 900,290 1200,265 L 1200,300 L 0,300 Z" fill="rgba(255,255,255,0.1)"/>
+      <g opacity="0.2">
+        <path d="M 100,150 Q 110,138 120,150 Q 130,162 140,150 Q 150,138 160,150 Q 170,162 180,150 Q 190,138 200,150 Q 210,162 220,150 Q 230,138 240,150" fill="none" stroke="rgba(74,46,26,0.5)" stroke-width="0.8"/>
+        <path d="M 960,150 Q 970,138 980,150 Q 990,162 1000,150 Q 1010,138 1020,150 Q 1030,162 1040,150 Q 1050,138 1060,150 Q 1070,162 1080,150" fill="none" stroke="rgba(74,46,26,0.5)" stroke-width="0.8"/>
+      </g>
+    </svg>
+    <div class="footer-content">
+      <p class="footer-title">青春的每一件心事，都值得被溫柔記錄</p>
+      <p class="footer-sub">✦ 幸福感 · 研究 · 成長 ✦</p>
+      <div class="footer-credits">
+        <p>2026 · HKBU DMC × CityLab 幸福感調研小組</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- progress bar -->
+  <div id="progress-bar"></div>
+
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
